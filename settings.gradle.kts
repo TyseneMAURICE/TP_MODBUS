@@ -1,0 +1,1 @@
+rootProject.name = "Tp_MODBUS2"
