@@ -19,7 +19,6 @@ public class Main {
             System.out.println("registre interroger ?");
             int reg = In.readInteger();
             classeModbus.lectureCoils(reg,2);
-            classeModbus.fermerLiaisonSerie();
 
 
         } catch (SerialPortException e) {

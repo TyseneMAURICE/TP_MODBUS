@@ -28,13 +28,6 @@ public class Crc16 {
         return data;
     }
 
-    static byte[] formatage (String trame){
-        byte[] byteTrame;
-        String regexHexa = "[0-9a-fA-F]+";
-        if(!trame.matches(regexHexa))return null;
-        if(trame.length()%2!=0) trame += "0";
-        byteTrame = hexStringEnByteArray(trame);
-        return byteTrame;
-    }
+
 
 }
